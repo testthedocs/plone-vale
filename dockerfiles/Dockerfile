@@ -1,10 +1,9 @@
-#FROM alpine:3.8
 FROM python:3-alpine
 
 LABEL maintainer "Sven <sven@testthedocs.org>" \
     org.label-schema.vendor = "TestTheDocs"
 
-ENV VALE_VERSION 1.2.6
+ENV VALE_VERSION 1.2.7
 
 COPY dockerfiles/entrypoint.sh /usr/local/bin/entrypoint.sh
 
