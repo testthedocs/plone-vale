@@ -2,6 +2,12 @@
 Changelog
 =========
 
+0.0.3
+=====
+
+- Fix paths [svx]
+- Update Vale to 1.3.0 [svx]
+
 0.0.2
 =====
 

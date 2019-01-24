@@ -3,7 +3,7 @@ FROM python:3-alpine
 LABEL maintainer "Sven <sven@testthedocs.org>" \
     org.label-schema.vendor = "TestTheDocs"
 
-ENV VALE_VERSION 1.2.7
+ENV VALE_VERSION 1.3.0
 
 COPY dockerfiles/entrypoint.sh /usr/local/bin/entrypoint.sh
 
@@ -20,8 +20,7 @@ RUN adduser -s /bin/false -D -H ttd \
     && rm LICENSE \
     && rm README.md
 
-WORKDIR /srv
-VOLUME /srv
 
+#ENTRYPOINT ["vale"]
 #ENTRYPOINT [ "bash" ]
 ENTRYPOINT [ "/sbin/tini", "--", "/usr/local/bin/entrypoint.sh" ]
