@@ -2,6 +2,11 @@
 Changelog
 =========
 
+0.0.5
+=====
+
+- Embed style checks into the image [svx]
+
 0.0.4
 =====
 

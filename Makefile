@@ -21,7 +21,7 @@ help: ## This help message
 
 .PHONY: image
 image: ## Builds docker image
-	docker build -f dockerfiles/Dockerfile --no-cache=true --force-rm -t $(NAME):$(VERSION) .
+	docker build -f dockerfiles/Dockerfile.full --no-cache=true --force-rm -t $(NAME):$(VERSION) .
 
 .PHONY: testhtml
 html: ## Running a html test build in picky mode
