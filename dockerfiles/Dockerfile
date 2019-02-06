@@ -24,3 +24,4 @@ RUN adduser -s /bin/false -D -H ttd \
 #ENTRYPOINT ["vale"]
 #ENTRYPOINT [ "bash" ]
 ENTRYPOINT [ "/sbin/tini", "--", "/usr/local/bin/entrypoint.sh" ]
+CMD []

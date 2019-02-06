@@ -27,3 +27,4 @@ WORKDIR /srv
 #ENTRYPOINT ["vale"]
 #ENTRYPOINT [ "bash" ]
 ENTRYPOINT [ "/sbin/tini", "--", "/usr/local/bin/entrypoint.sh" ]
+CMD []
