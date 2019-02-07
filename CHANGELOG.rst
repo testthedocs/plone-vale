@@ -2,6 +2,11 @@
 Changelog
 =========
 
+0.0.6
+=====
+
+- Update Plone styles [polyester]
+
 0.0.5
 =====
 
