@@ -36,7 +36,8 @@ sudoing
 toctree
 Todo
 toolchain
-utf
+UTF
+Unicode
 VPS
 WCAG
 webserver
