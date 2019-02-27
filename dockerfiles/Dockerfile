@@ -3,7 +3,7 @@ FROM python:3-alpine
 LABEL maintainer "Sven <sven@testthedocs.org>" \
     org.label-schema.vendor = "TestTheDocs"
 
-ENV VALE_VERSION 1.3.1
+ENV VALE_VERSION 1.3.2
 
 COPY dockerfiles/entrypoint.sh /usr/local/bin/entrypoint.sh
 

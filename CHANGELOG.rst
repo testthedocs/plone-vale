@@ -2,6 +2,8 @@
 Changelog
 =========
 
+- Update Vale to 1.3.2 [svx]
+
 0.0.6
 =====
 
