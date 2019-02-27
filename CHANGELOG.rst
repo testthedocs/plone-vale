@@ -2,6 +2,14 @@
 Changelog
 =========
 
+0.0.9
+=====
+
+- Add Vale scope to check link descriptions [svx]
+
+0.0.8
+=====
+
 - Update Vale to 1.3.2 [svx]
 
 0.0.6

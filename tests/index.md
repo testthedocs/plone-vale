@@ -78,3 +78,4 @@ advanced users.
 
 * Check that you do not have any syntax errors or typos
 
+Get the latest version of Plone [here](https://plone.org)
